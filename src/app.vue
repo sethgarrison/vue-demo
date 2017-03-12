@@ -9,13 +9,23 @@
             </li>
         </ul>
 
+        <card>
+            <div slot="footer">I am a slotted thing</div>
+        </card>
+
         <router-view></router-view>
     </div>
 </template>
 
 <script>
+
+    import card from './card.vue';
+
     export default {
         name: 'app',
+        components: {
+            card
+        },
         data () {
             return {
                 msg: 'Welcome to Your Vue.js App'

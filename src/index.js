@@ -7,6 +7,7 @@ import markdown from './markdown-editor/markdown.vue';
 import todo from './todo-list/todo-list.vue';
 import gallery from './gallery/gallery.vue';
 
+
 Vue.use(VueRouter);
 
 const routes = [
